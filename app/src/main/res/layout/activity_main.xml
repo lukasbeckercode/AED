@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="20sp"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/header"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/header"
+        app:layout_constraintLeft_toRightOf="parent"
+        android:paddingVertical="20sp"
+        android:id="@+id/commandLabel" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toBottomOf="@id/commandLabel"
+    app:layout_constraintLeft_toRightOf="parent"
+    android:id="@+id/linearLayoutBody"
+    android:paddingVertical="20sp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/plugButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/insert_plug_tmp"
+        android:paddingVertical="20sp"
+        android:paddingStart="20sp"
+        android:paddingEnd="20sp"
+
+        />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/deliverShockButton"
+            android:paddingStart="10sp"
+            android:paddingEnd="10sp"
+            android:src="@drawable/shock_button"
+            android:contentDescription="@string/deliver_shock_button_description"
+            />
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

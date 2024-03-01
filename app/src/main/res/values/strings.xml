@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AED</string>
+    <string name="insert_plug_tmp">Stecker einstecken</string>
+    <string name="deliverShock">Schock abgeben</string>
+    <string name="place_electrodes">Elektroden anbringen</string>
+    <string name="analysis_text">Patient nicht berühren - Analyse</string>
+    <string name="shock_recommended">Schock empfohlen - Patent nicht berühren</string>
+    <string name="shock_delivered">Schock abgegeben - Starte CPR</string>
+    <string name="deliver_shock_button_description">Schock abgeben</string>
+</resources>
